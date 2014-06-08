@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596DD41C4AF942AFAFDBD010 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3187ED6CB6D745C585713053 /* libPods.a */; };
+		EC708F8E1943A8A7005D2648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC708F8D1943A8A7005D2648 /* Foundation.framework */; };
+		EC708F901943A8A7005D2648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC708F8F1943A8A7005D2648 /* CoreGraphics.framework */; };
+		EC708F921943A8A7005D2648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC708F911943A8A7005D2648 /* UIKit.framework */; };
+		EC708F981943A8A7005D2648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC708F961943A8A7005D2648 /* InfoPlist.strings */; };
+		EC708F9A1943A8A7005D2648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC708F991943A8A7005D2648 /* main.m */; };
+		EC708F9E1943A8A7005D2648 /* MNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC708F9D1943A8A7005D2648 /* MNRAppDelegate.m */; };
+		EC708FA01943A8A7005D2648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC708F9F1943A8A7005D2648 /* Images.xcassets */; };
+		EC708FA71943A8A7005D2648 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC708FA61943A8A7005D2648 /* XCTest.framework */; };
+		EC708FA81943A8A7005D2648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC708F8D1943A8A7005D2648 /* Foundation.framework */; };
+		EC708FA91943A8A7005D2648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC708F911943A8A7005D2648 /* UIKit.framework */; };
+		EC708FB11943A8A7005D2648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC708FAF1943A8A7005D2648 /* InfoPlist.strings */; };
+		EC708FB31943A8A8005D2648 /* MenuReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC708FB21943A8A8005D2648 /* MenuReaderTests.m */; };
+		ECF6589F1943B07F00820D5B /* MNRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF6589E1943B07F00820D5B /* MNRRootViewController.m */; };
+		ECF658A21943B29100820D5B /* IMG_1012.JPG in Resources */ = {isa = PBXBuildFile; fileRef = ECF658A01943B29100820D5B /* IMG_1012.JPG */; };
+		ECF658A31943B29100820D5B /* IMG_1013.JPG in Resources */ = {isa = PBXBuildFile; fileRef = ECF658A11943B29100820D5B /* IMG_1013.JPG */; };
+		ECF658B81943B4E200820D5B /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = ECF658B71943B4E200820D5B /* tessdata */; };
+		ECF658BE1943B62800820D5B /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF658BD1943B62800820D5B /* UIView+AutoLayout.m */; };
+		ECF658C01943B92E00820D5B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF658BF1943B92E00820D5B /* menu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC708FAA1943A8A7005D2648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC708F821943A8A7005D2648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC708F891943A8A7005D2648;
+			remoteInfo = MenuReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3187ED6CB6D745C585713053 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A1308B816B48679F2F3119 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EC708F8A1943A8A7005D2648 /* MenuReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC708F8D1943A8A7005D2648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC708F8F1943A8A7005D2648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC708F911943A8A7005D2648 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC708F951943A8A7005D2648 /* MenuReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuReader-Info.plist"; sourceTree = "<group>"; };
+		EC708F971943A8A7005D2648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC708F991943A8A7005D2648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC708F9B1943A8A7005D2648 /* MenuReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuReader-Prefix.pch"; sourceTree = "<group>"; };
+		EC708F9C1943A8A7005D2648 /* MNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNRAppDelegate.h; sourceTree = "<group>"; };
+		EC708F9D1943A8A7005D2648 /* MNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNRAppDelegate.m; sourceTree = "<group>"; };
+		EC708F9F1943A8A7005D2648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC708FA51943A8A7005D2648 /* MenuReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC708FA61943A8A7005D2648 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC708FAE1943A8A7005D2648 /* MenuReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuReaderTests-Info.plist"; sourceTree = "<group>"; };
+		EC708FB01943A8A7005D2648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC708FB21943A8A8005D2648 /* MenuReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuReaderTests.m; sourceTree = "<group>"; };
+		ECF6589D1943B07F00820D5B /* MNRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNRRootViewController.h; sourceTree = "<group>"; };
+		ECF6589E1943B07F00820D5B /* MNRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNRRootViewController.m; sourceTree = "<group>"; };
+		ECF658A01943B29100820D5B /* IMG_1012.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1012.JPG; sourceTree = "<group>"; };
+		ECF658A11943B29100820D5B /* IMG_1013.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1013.JPG; sourceTree = "<group>"; };
+		ECF658B71943B4E200820D5B /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		ECF658BC1943B62800820D5B /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		ECF658BD1943B62800820D5B /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		ECF658BF1943B92E00820D5B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC708F871943A8A7005D2648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC708F901943A8A7005D2648 /* CoreGraphics.framework in Frameworks */,
+				EC708F921943A8A7005D2648 /* UIKit.framework in Frameworks */,
+				EC708F8E1943A8A7005D2648 /* Foundation.framework in Frameworks */,
+				596DD41C4AF942AFAFDBD010 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC708FA21943A8A7005D2648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC708FA71943A8A7005D2648 /* XCTest.framework in Frameworks */,
+				EC708FA91943A8A7005D2648 /* UIKit.framework in Frameworks */,
+				EC708FA81943A8A7005D2648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC708F811943A8A7005D2648 = {
+			isa = PBXGroup;
+			children = (
+				ECF658B71943B4E200820D5B /* tessdata */,
+				EC708F931943A8A7005D2648 /* MenuReader */,
+				EC708FAC1943A8A7005D2648 /* MenuReaderTests */,
+				EC708F8C1943A8A7005D2648 /* Frameworks */,
+				EC708F8B1943A8A7005D2648 /* Products */,
+				94A1308B816B48679F2F3119 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EC708F8B1943A8A7005D2648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC708F8A1943A8A7005D2648 /* MenuReader.app */,
+				EC708FA51943A8A7005D2648 /* MenuReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC708F8C1943A8A7005D2648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC708F8D1943A8A7005D2648 /* Foundation.framework */,
+				EC708F8F1943A8A7005D2648 /* CoreGraphics.framework */,
+				EC708F911943A8A7005D2648 /* UIKit.framework */,
+				EC708FA61943A8A7005D2648 /* XCTest.framework */,
+				3187ED6CB6D745C585713053 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC708F931943A8A7005D2648 /* MenuReader */ = {
+			isa = PBXGroup;
+			children = (
+				ECF658BF1943B92E00820D5B /* menu.png */,
+				ECF658BB1943B62800820D5B /* UIView+AutoLayout */,
+				ECF658A01943B29100820D5B /* IMG_1012.JPG */,
+				ECF658A11943B29100820D5B /* IMG_1013.JPG */,
+				EC708F9C1943A8A7005D2648 /* MNRAppDelegate.h */,
+				EC708F9D1943A8A7005D2648 /* MNRAppDelegate.m */,
+				EC708F9F1943A8A7005D2648 /* Images.xcassets */,
+				EC708F941943A8A7005D2648 /* Supporting Files */,
+				ECF6589D1943B07F00820D5B /* MNRRootViewController.h */,
+				ECF6589E1943B07F00820D5B /* MNRRootViewController.m */,
+			);
+			path = MenuReader;
+			sourceTree = "<group>";
+		};
+		EC708F941943A8A7005D2648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC708F951943A8A7005D2648 /* MenuReader-Info.plist */,
+				EC708F961943A8A7005D2648 /* InfoPlist.strings */,
+				EC708F991943A8A7005D2648 /* main.m */,
+				EC708F9B1943A8A7005D2648 /* MenuReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC708FAC1943A8A7005D2648 /* MenuReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC708FB21943A8A8005D2648 /* MenuReaderTests.m */,
+				EC708FAD1943A8A7005D2648 /* Supporting Files */,
+			);
+			path = MenuReaderTests;
+			sourceTree = "<group>";
+		};
+		EC708FAD1943A8A7005D2648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC708FAE1943A8A7005D2648 /* MenuReaderTests-Info.plist */,
+				EC708FAF1943A8A7005D2648 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF658BB1943B62800820D5B /* UIView+AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				ECF658BC1943B62800820D5B /* UIView+AutoLayout.h */,
+				ECF658BD1943B62800820D5B /* UIView+AutoLayout.m */,
+			);
+			path = "UIView+AutoLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC708F891943A8A7005D2648 /* MenuReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC708FB61943A8A8005D2648 /* Build configuration list for PBXNativeTarget "MenuReader" */;
+			buildPhases = (
+				CBA1197E17D34384A0AF566A /* Check Pods Manifest.lock */,
+				EC708F861943A8A7005D2648 /* Sources */,
+				EC708F871943A8A7005D2648 /* Frameworks */,
+				EC708F881943A8A7005D2648 /* Resources */,
+				25A2F23BDC8C4878BD02655B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuReader;
+			productName = MenuReader;
+			productReference = EC708F8A1943A8A7005D2648 /* MenuReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC708FA41943A8A7005D2648 /* MenuReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC708FB91943A8A8005D2648 /* Build configuration list for PBXNativeTarget "MenuReaderTests" */;
+			buildPhases = (
+				EC708FA11943A8A7005D2648 /* Sources */,
+				EC708FA21943A8A7005D2648 /* Frameworks */,
+				EC708FA31943A8A7005D2648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC708FAB1943A8A7005D2648 /* PBXTargetDependency */,
+			);
+			name = MenuReaderTests;
+			productName = MenuReaderTests;
+			productReference = EC708FA51943A8A7005D2648 /* MenuReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC708F821943A8A7005D2648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hipo;
+				TargetAttributes = {
+					EC708FA41943A8A7005D2648 = {
+						TestTargetID = EC708F891943A8A7005D2648;
+					};
+				};
+			};
+			buildConfigurationList = EC708F851943A8A7005D2648 /* Build configuration list for PBXProject "MenuReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC708F811943A8A7005D2648;
+			productRefGroup = EC708F8B1943A8A7005D2648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC708F891943A8A7005D2648 /* MenuReader */,
+				EC708FA41943A8A7005D2648 /* MenuReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC708F881943A8A7005D2648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF658A31943B29100820D5B /* IMG_1013.JPG in Resources */,
+				ECF658A21943B29100820D5B /* IMG_1012.JPG in Resources */,
+				ECF658C01943B92E00820D5B /* menu.png in Resources */,
+				ECF658B81943B4E200820D5B /* tessdata in Resources */,
+				EC708F981943A8A7005D2648 /* InfoPlist.strings in Resources */,
+				EC708FA01943A8A7005D2648 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC708FA31943A8A7005D2648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC708FB11943A8A7005D2648 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25A2F23BDC8C4878BD02655B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA1197E17D34384A0AF566A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC708F861943A8A7005D2648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF6589F1943B07F00820D5B /* MNRRootViewController.m in Sources */,
+				ECF658BE1943B62800820D5B /* UIView+AutoLayout.m in Sources */,
+				EC708F9E1943A8A7005D2648 /* MNRAppDelegate.m in Sources */,
+				EC708F9A1943A8A7005D2648 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC708FA11943A8A7005D2648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC708FB31943A8A8005D2648 /* MenuReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC708FAB1943A8A7005D2648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC708F891943A8A7005D2648 /* MenuReader */;
+			targetProxy = EC708FAA1943A8A7005D2648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC708F961943A8A7005D2648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC708F971943A8A7005D2648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC708FAF1943A8A7005D2648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC708FB01943A8A7005D2648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC708FB41943A8A8005D2648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC708FB51943A8A8005D2648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC708FB71943A8A8005D2648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A1308B816B48679F2F3119 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuReader/MenuReader-Prefix.pch";
+				INFOPLIST_FILE = "MenuReader/MenuReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC708FB81943A8A8005D2648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A1308B816B48679F2F3119 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuReader/MenuReader-Prefix.pch";
+				INFOPLIST_FILE = "MenuReader/MenuReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC708FBA1943A8A8005D2648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MenuReader.app/MenuReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuReader/MenuReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MenuReaderTests/MenuReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC708FBB1943A8A8005D2648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MenuReader.app/MenuReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuReader/MenuReader-Prefix.pch";
+				INFOPLIST_FILE = "MenuReaderTests/MenuReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC708F851943A8A7005D2648 /* Build configuration list for PBXProject "MenuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC708FB41943A8A8005D2648 /* Debug */,
+				EC708FB51943A8A8005D2648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC708FB61943A8A8005D2648 /* Build configuration list for PBXNativeTarget "MenuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC708FB71943A8A8005D2648 /* Debug */,
+				EC708FB81943A8A8005D2648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC708FB91943A8A8005D2648 /* Build configuration list for PBXNativeTarget "MenuReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC708FBA1943A8A8005D2648 /* Debug */,
+				EC708FBB1943A8A8005D2648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC708F821943A8A7005D2648 /* Project object */;
+}

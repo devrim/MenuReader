@@ -1,0 +1,4 @@
+platform:ios, '7.0'
+xcodeproj 'MenuReader/MenuReader.xcodeproj'
+
+pod 'TesseractOCRiOS', '~> 2.22'
